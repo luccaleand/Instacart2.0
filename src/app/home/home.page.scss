@@ -1,6 +1,4 @@
-ion-toolbar {
-  background-color: red;
-
+ion-toolbar{
   width: 100%;
   min-width: 1024px;
   display: -webkit-box;
@@ -23,9 +21,8 @@ ion-toolbar {
   box-sizing: border-box;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 9%);
   /*color: #72767E;*/
-  background: #00ff7b;
-  background-color: #ff0000;
-  color: rgb(36, 117, 70);
+  background-color: #09624B;
+  color: rgb(255, 255, 255);
   /*color="#09624B"*/
 }
 
@@ -229,9 +226,8 @@ ion-header {}
 
 .css-1j8v8ax-ContentWrapper {
   max-width: 1280px;
-  margin: 150px;
-  padding-top: 16px;
-
+  margin: 0 auto;
+  padding-top: 160px;
 }
 
 .css-1pkq129 {
@@ -286,6 +282,7 @@ ion-header {}
   min-height: 104px;
   min-width: 104px;
 }
+
 .css-109bs67-StoreForwardItem {
   font-size: 12px;
   line-height: 18px;
@@ -298,10 +295,12 @@ ion-header {}
   white-space: nowrap;
   max-width: 104px;
 }
+
 .css-fa7ybv {
   display: inline-block;
   width: 100%;
 }
+
 .css-1knvlov-StoreForwardETA {
   font-size: 12px;
   line-height: 18px;
@@ -317,9 +316,9 @@ ion-header {}
 
 
 .css-8uhtka {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 div {
@@ -328,7 +327,8 @@ div {
 
 // primeira caixa
 .css-cqgdmt-HomePlacement {
-  margin-bottom: -323px;
+  margin-bottom: 320px;
+  background: red;
 }
 
 .css-1kpfjlz {
@@ -506,9 +506,9 @@ div {
   text-decoration: none;
   background-color: rgb(234, 245, 235);
   background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/electronics@2x-cfdbef4493e81db64015cc7f5bd24b4d5f9ecd1359e2f4eb4dd164e843699614.png");
-   //apague a linha de baixa para arrumar a imagem
-      background-image: url("https://i.pinimg.com/736x/de/4b/87/de4b87df8e9a01d1b6fc85f04b857987.jpg");
-   //apague a linha de cima para arrumar a imagem
+  //apague a linha de baixa para arrumar a imagem
+  background-image: url("https://i.pinimg.com/736x/de/4b/87/de4b87df8e9a01d1b6fc85f04b857987.jpg");
+  //apague a linha de cima para arrumar a imagem
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: contain;

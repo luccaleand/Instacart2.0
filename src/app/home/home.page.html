@@ -1,13 +1,14 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="white">
     <ion-buttons slot="start">
-      <ion-button>
-        <ion-icon name="menu"></ion-icon>
-      </ion-button>
+      <ion-menu-button></ion-menu-button><img
+        src="https://www.instacart.com/image-server/120x24/www.instacart.com/assets/beetstrap/brand/2022/logo-dark@3x-b2219c137c293415b560dbab7e9f7ba3037751b2cf65bfe097d1517c4105e706.png"
+        alt="Instacart" style="margin-right: 50px;">
     </ion-buttons>
-    <ion-title>Minha Navbar</ion-title>
-    <ion-searchbar></ion-searchbar>
-    <ion-buttons slot="end">
+    <ion-title></ion-title>
+    <ion-searchbar placeholder="Search products, stores, and recipes">
+
+    </ion-searchbar> <ion-buttons slot="end">
       <ion-button>
         <ion-icon name="notifications"></ion-icon>
       </ion-button>
@@ -19,429 +20,416 @@
 </ion-header>
 
 <ion-content>
-  <!-- Conteúdo da página aqui -->
-</ion-content>
+  <ion-menu side="start" contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Opções</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Início</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Configurações</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
 
 
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-icon name="menu"></ion-icon>
-    </ion-buttons>
-    <ion-title>Minha App</ion-title>
-    <ion-buttons slot="end">
-      <ion-icon name="notifications"></ion-icon>
-      <ion-icon name="settings"></ion-icon>
-    </ion-buttons>
-  </ion-toolbar>
-  <ion-toolbar>
-    <ion-searchbar></ion-searchbar>
-  </ion-toolbar>
-</ion-header>
 
-<ion-header>
-  <ion-toolbar>
-    <ion-searchbar placeholder="Search products, stores, and recipes">
-      <img
-        src="https://www.instacart.com/image-server/120x24/www.instacart.com/assets/beetstrap/brand/2022/logo-dark@3x-b2219c137c293415b560dbab7e9f7ba3037751b2cf65bfe097d1517c4105e706.png"
-        alt="Instacart">
-    </ion-searchbar>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content><a href="#home-login.page.html">home-login</a>
 
-  <div class="laranja">
-    <p>sla man2</p>
+  <ion-content id="main-content"><a href="#home-login.page.html">home-login</a>
 
-    <ion-row>
-      <ion-card>
-        <ion-img
-          src="https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/grocery@2x-818c5ed2b5cf77899813938c16ecae675b31eceb9cc8e02f8a68ecb05d575d46.png"></ion-img>
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          By 6:59pm
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          By 6:59pm
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          By 6:59pm
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          By 6:59pm
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          44 min
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          49 min
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          42 min
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Costco
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          52 min
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Target
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          44 min
-        </ion-card-content>
-      </ion-card>
-
-      <ion-card>
-        <ion-img
-          src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/1239/fa662636-8cbe-4625-b4a8-e5a54cc647bc.png"></ion-img>
-
-        <ion-card-header>
-          <ion-card-title>
-            Woodlands
-          </ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          38 min
-        </ion-card-content>
-      </ion-card>
-    </ion-row>
-  </div>
-
-  <div class="section">
-
-    <div clas="slaman">
-      <p style="color: wheat;">sla man</p>
+    <div class="laranja">
+      <p>sla man2</p>
 
       <ion-row>
-
-
-        <ion-card class="teste">
-          <ion-img>
-
-          </ion-img>
+        <ion-card>
+          <ion-img
+            src="https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/grocery@2x-818c5ed2b5cf77899813938c16ecae675b31eceb9cc8e02f8a68ecb05d575d46.png"></ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            By 6:59pm
+          </ion-card-content>
         </ion-card>
 
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
 
-        <ion-card class="teste">
-          <ion-img>
-
-          </ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            By 6:59pm
+          </ion-card-content>
         </ion-card>
 
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
 
-        <ion-card class="teste">
-          <ion-img>
-
-          </ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            By 6:59pm
+          </ion-card-content>
         </ion-card>
 
-        <ion-card class="teste2">
-          <ion-img>
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
 
-          </ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            By 6:59pm
+          </ion-card-content>
         </ion-card>
 
-        <ion-card class="teste2">
-          <ion-img>
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
 
-          </ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            44 min
+          </ion-card-content>
         </ion-card>
 
-        <ion-card class="teste2">
-          <ion-img>
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
 
-          </ion-img>
           <ion-card-header>
-            <ion-card-title style="color: black;">Grocery</ion-card-title>
-            <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
-            <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            49 min
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
+
+          <ion-card-header>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            42 min
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
+
+          <ion-card-header>
+            <ion-card-title>
+              Costco
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            52 min
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png"></ion-img>
+
+          <ion-card-header>
+            <ion-card-title>
+              Target
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            44 min
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-img
+            src="https://www.instacart.com/image-server/100x/www.instacart.com/assets/domains/warehouse/logo/1239/fa662636-8cbe-4625-b4a8-e5a54cc647bc.png"></ion-img>
+
+          <ion-card-header>
+            <ion-card-title>
+              Woodlands
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            38 min
+          </ion-card-content>
         </ion-card>
       </ion-row>
     </div>
-  </div>
+
+    <div class="section">
+
+      <div clas="slaman">
+        <p style="color: wheat;">sla man</p>
+
+        <ion-row>
 
 
+          <ion-card class="teste">
+            <ion-img>
+
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
 
 
+          <ion-card class="teste">
+            <ion-img>
+
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
 
 
+          <ion-card class="teste">
+            <ion-img>
 
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
 
+          <ion-card class="teste2">
+            <ion-img>
 
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
 
+          <ion-card class="teste2">
+            <ion-img>
 
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
 
-  <div>
-    <div>
+          <ion-card class="teste2">
+            <ion-img>
+
+            </ion-img>
+            <ion-card-header>
+              <ion-card-title style="color: black;">Grocery</ion-card-title>
+              <ion-card-subtitle style="color: black;">1 hr</ion-card-subtitle>
+              <ion-card-content style="color: black;">Free delivery with Instacart+</ion-card-content>
+            </ion-card-header>
+          </ion-card>
+        </ion-row>
+      </div>
+    </div>
+
+    <div class="css-1j8v8ax-ContentWrapper">
+
       <div>
-        <div class="css-cqgdmt-HomePlacement">
-          <div id="use-cases" class="css-1kpfjlz"><a class="css-1ogx7lw-UseCaseTile"
-              href="/store/directory?filter=grocery">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Grocery</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 2x"
-                      alt="Metro" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 2x"
-                      alt="Super C" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 2x"
-                      alt="Adonis" width="32" height="32" class="css-c7gbh3">
-                    <div class="css-b869aw-RetailerLogos">+5</div>
-                  </li>
-                </ul>
-              </div>
-            </a><a class="css-qgnzjs-UseCaseTile" href="/store/hub/deals_tab">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Deals</div>
-                <div class="css-1ms12sa">Updated daily</div>
-                <ul class="css-15ys5r0"></ul>
-              </div>
-            </a><a class="css-1pa5b53-UseCaseTile" href="/store/hub/wholesale">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Wholesale</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
-                      alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
-                </ul>
-              </div>
-            </a><a class="css-xi65z5-UseCaseTile" href="/store/hub/readyMeals">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Ready Meals</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Lower fees on $10+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
-                      alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png 2x"
-                      alt="Les Aliments M&amp;M" width="32" height="32" class="css-c7gbh3"></li>
-                </ul>
-              </div>
-            </a><a class="css-lkfii4-UseCaseTile" href="/store/hub/beauty/3299-makeup">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Beauty</div>
-                <div class="css-1ms12sa">By 12:45pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 2x"
-                      alt="Sephora Canada" width="32" height="32" class="css-c7gbh3"></li>
-                </ul>
-              </div>
-            </a><a class="css-606s7d-UseCaseTile" href="/store/hub/electronics">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Electronics</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
-                      alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png 2x"
-                      alt="Dollarama" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png 2x"
-                      alt="Bureau en Gros" width="32" height="32" class="css-c7gbh3">
-                    <div class="css-b869aw-RetailerLogos">+1</div>
-                  </li>
-                </ul>
-              </div>
-            </a><a class="css-3or0tu-UseCaseTile" href="/store/hub/gifts">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Gifts</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Nationwide delivery</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png 2x"
-                      alt="Walmart" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
-                      alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 2x"
-                      alt="Sephora Canada" width="32" height="32" class="css-c7gbh3">
-                    <div class="css-b869aw-RetailerLogos">+6</div>
-                  </li>
-                </ul>
-              </div>
-            </a><a class="css-1227c61-UseCaseTile" href="/store/hub/pet">
-              <div class="css-t7c1by-UseCaseTile">
-                <div class="css-mjqirb-UseCaseTile">Pets</div>
-                <div class="css-1ms12sa">By 7:00pm</div>
-                <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
-                <ul class="css-15ys5r0">
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 2x"
-                      alt="Metro" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 2x"
-                      alt="Super C" width="32" height="32" class="css-c7gbh3"></li>
-                  <li class="css-86c4kt"><img
-                      src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png"
-                      srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 2x"
-                      alt="Adonis" width="32" height="32" class="css-c7gbh3">
-                    <div class="css-b869aw-RetailerLogos">+5</div>
-                  </li>
-                </ul>
-              </div>
-            </a></div><button aria-controls="use-cases" aria-expanded="true" class="css-1z0kn50-UseCasesGrid">Show
-            fewer<span class="css-vhf51p"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="#343538"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="m12 10.621 5.94 5.94a1.5 1.5 0 0 0 2.12-2.122l-7-7a1.5 1.5 0 0 0-2.12 0l-7 7a1.5 1.5 0 0 0 2.12 2.122L12 10.62Z">
-                </path>
-              </svg></span></button>
+        <div>
+          <div>
+            <div class="css-cqgdmt-HomePlacement">
+              <div id="use-cases" class="css-1kpfjlz"><a class="css-1ogx7lw-UseCaseTile"
+                  href="/store/directory?filter=grocery">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Grocery</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 2x"
+                          alt="Metro" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 2x"
+                          alt="Super C" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 2x"
+                          alt="Adonis" width="32" height="32" class="css-c7gbh3">
+                        <div class="css-b869aw-RetailerLogos">+5</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- 
+
+                  -->
+                </a><a class="css-qgnzjs-UseCaseTile" href="/store/hub/deals_tab">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Deals</div>
+                    <div class="css-1ms12sa">Updated daily</div>
+                    <ul class="css-15ys5r0"></ul>
+                  </div>
+                </a><a class="css-1pa5b53-UseCaseTile" href="/store/hub/wholesale">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Wholesale</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
+                          alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
+                    </ul>
+                  </div>
+                </a><a class="css-xi65z5-UseCaseTile" href="/store/hub/readyMeals">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Ready Meals</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Lower fees on $10+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
+                          alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1769/2810a5b5-cd48-4622-95d0-7c2b3882be21.png 2x"
+                          alt="Les Aliments M&amp;M" width="32" height="32" class="css-c7gbh3"></li>
+                    </ul>
+                  </div>
+                </a><a class="css-lkfii4-UseCaseTile" href="/store/hub/beauty/3299-makeup">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Beauty</div>
+                    <div class="css-1ms12sa">By 12:45pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 2x"
+                          alt="Sephora Canada" width="32" height="32" class="css-c7gbh3"></li>
+                    </ul>
+                  </div>
+                </a><a class="css-606s7d-UseCaseTile" href="/store/hub/electronics">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Electronics</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
+                          alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1603/7d6204e2-859f-499d-8236-e15aaf252007.png 2x"
+                          alt="Dollarama" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1786/6a948794-265a-4971-bf3f-b7323ba755ae.png 2x"
+                          alt="Bureau en Gros" width="32" height="32" class="css-c7gbh3">
+                        <div class="css-b869aw-RetailerLogos">+1</div>
+                      </li>
+                    </ul>
+                  </div>
+                </a><a class="css-3or0tu-UseCaseTile" href="/store/hub/gifts">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Gifts</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Nationwide delivery</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/462/2eba6946-8810-481e-bd3c-6852d5121d51.png 2x"
+                          alt="Walmart" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/354/fc4be33a-bff9-4076-9d57-4b5e08377771.png 2x"
+                          alt="Costco" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/1555/27f6ac04-0756-4fcc-ab3e-06bf97b9e3a2.jpg 2x"
+                          alt="Sephora Canada" width="32" height="32" class="css-c7gbh3">
+                        <div class="css-b869aw-RetailerLogos">+6</div>
+                      </li>
+                    </ul>
+                  </div>
+                </a><a class="css-1227c61-UseCaseTile" href="/store/hub/pet">
+                  <div class="css-t7c1by-UseCaseTile">
+                    <div class="css-mjqirb-UseCaseTile">Pets</div>
+                    <div class="css-1ms12sa">By 7:00pm</div>
+                    <div class="css-1k9zsj-UseCaseTile">Free delivery with Instacart+</div>
+                    <ul class="css-15ys5r0">
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2138/19b444c0-481d-41cf-b017-4d1666e81006.png 2x"
+                          alt="Metro" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2438/56cba67e-3937-4228-9a57-572fb1e1a1d2.png 2x"
+                          alt="Super C" width="32" height="32" class="css-c7gbh3"></li>
+                      <li class="css-86c4kt"><img
+                          src="https://www.instacart.com/image-server/32x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png"
+                          srcset="https://www.instacart.com/image-server/48x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 1.5x, https://www.instacart.com/image-server/64x/www.instacart.com/assets/domains/warehouse/logo/2323/ba755be3-5f2b-4ac9-887e-dc2a60637ec8.png 2x"
+                          alt="Adonis" width="32" height="32" class="css-c7gbh3">
+                        <div class="css-b869aw-RetailerLogos">+5</div>
+                      </li>
+                    </ul>
+                  </div>
+                </a></div><button aria-controls="use-cases" aria-expanded="true" class="css-1z0kn50-UseCasesGrid">Show
+                fewer<span class="css-vhf51p"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="#343538"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="m12 10.621 5.94 5.94a1.5 1.5 0 0 0 2.12-2.122l-7-7a1.5 1.5 0 0 0-2.12 0l-7 7a1.5 1.5 0 0 0 2.12 2.122L12 10.62Z">
+                    </path>
+                  </svg></span></button>
+            </div>
+          </div>
+          <div>
+            <div class="css-oxls75-ShoppableDisplayHomeWrapper"></div>
+          </div>
+          <div>
+            <div class="css-oxls75-ShoppableDisplayHomeWrapper"></div>
+          </div>
+          <div></div>
+          <div></div>
         </div>
       </div>
-      <div>
-        <div class="css-oxls75-ShoppableDisplayHomeWrapper"></div>
-      </div>
-      <div>
-        <div class="css-oxls75-ShoppableDisplayHomeWrapper"></div>
-      </div>
-      <div></div>
-      <div></div>
     </div>
-  </div>
-</ion-content>
+  </ion-content>
