@@ -1,0 +1,558 @@
+ion-toolbar {
+  background-color: red;
+
+  width: 100%;
+  min-width: 1024px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 80px;
+  padding-left: 24px;
+  box-sizing: border-box;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 9%);
+  /*color: #72767E;*/
+  background: #00ff7b;
+  background-color: #ff0000;
+  color: rgb(36, 117, 70);
+  /*color="#09624B"*/
+}
+
+ion-searchbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 12px 0;
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: transparent;
+  text-indent: 0;
+  color: #343538;
+  outline: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: 0 2px 4px 0 #0000000d inset;
+  padding-right: 16px;
+  line-height: 22px;
+  font-weight: 600;
+
+  --background: #ffffff;
+  --color: #cc5656;
+  --placeholder-color: #000000;
+  --icon-color: #9ba350;
+  --clear-button-color: #3c7e9c;
+  --border-radius: 4px;
+}
+
+
+
+
+/* iOS places the subtitle above the title */
+ion-card {
+  background-color: white;
+}
+
+.laranja ion-card {
+  /*background-color: #09624B;*/
+  justify-content: center;
+  align-items: center;
+}
+
+ion-content {
+  --ion-background-color: #ffffff;
+  --ion-background-color-rgb: 255, 255, 255;
+
+  --ion-text-color: #000000;
+  --ion-text-color-rgb: 0, 0, 0;
+
+
+}
+
+
+
+
+
+
+/*.section ion-card {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url(https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/grocery@2x-818c5ed2b5cf77899813938c16ecae675b31eceb9cc8e02f8a68ecb05d575d46.png);
+  background-position: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px
+}
+*/
+
+.section {
+  border: 10px solid rgb(141, 0, 99);
+  margin-bottom: 32px;
+}
+
+.slaman {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.teste {
+  border: 10px solid rgb(0, 183, 255);
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url(https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/grocery@2x-818c5ed….png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.teste2 {
+  margin-top: 24px;
+  border: 10px solid rgb(0, 255, 213);
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url(https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/meals@2x-f834432….png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ion-header {}
+
+
+.laranja ion-img {
+  border-radius: 50%;
+  height: 100px;
+  /* altura da imagem */
+  width: 100px;
+  /* largura da imagem */
+  object-fit: cover;
+  /* redimensionar a imagem para caber dentro do círculo */
+  box-shadow: 0 0 0 1px #e8e9eb;
+  top: 50%;
+  left: 50%;
+
+}
+
+.laranja ion-card-title {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: unset;
+  font-variation-settings: "wght" 336, "opsz" 8;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 104px;
+
+}
+
+.laranja ion-card-content {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: unset;
+  font-variation-settings: "wght" 336, "opsz" 8;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  min-width: 0px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(114, 118, 126);
+
+
+}
+
+.laranja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.css-1j8v8ax-ContentWrapper {
+  max-width: 1280px;
+  margin: 150px;
+  padding-top: 16px;
+
+}
+
+.css-1pkq129 {
+  padding-top: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 17px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.css-19jssuo-StoreForwardItem {
+  position: relative;
+  width: 128px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100px;
+}
+
+.css-1v5khhi-StoreForwardItem {
+  padding-right: 24px;
+  padding-right: 0;
+}
+
+.css-dvxtzn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.css-lbmly4-StoreForwardItem {
+  position: relative;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-height: 104px;
+  min-width: 104px;
+}
+.css-109bs67-StoreForwardItem {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 104px;
+}
+.css-fa7ybv {
+  display: inline-block;
+  width: 100%;
+}
+.css-1knvlov-StoreForwardETA {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  min-width: 0px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(114, 118, 126);
+}
+
+
+.css-8uhtka {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div {
+  display: block;
+}
+
+// primeira caixa
+.css-cqgdmt-HomePlacement {
+  margin-bottom: -323px;
+}
+
+.css-1kpfjlz {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 24px;
+  column-gap: 24px;
+}
+
+.css-1ogx7lw-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url(https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/grocery@2x-818c5ed2b5cf77899813938c16ecae675b31eceb9cc8e02f8a68ecb05d575d46.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.css-t7c1by-UseCaseTile {
+  display: flex;
+  flex-flow: column;
+  padding: 16px;
+}
+
+.css-mjqirb-UseCaseTile {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: bold;
+  color: rgb(52, 53, 56);
+}
+
+.css-1ms12sa {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: bold;
+  color: rgb(28, 125, 28);
+}
+
+.css-1k9zsj-UseCaseTile {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  color: rgb(114, 118, 126);
+}
+
+.css-15ys5r0 {
+  margin: 12px 0px 0px;
+  padding: 0px;
+  display: flex;
+  -webkit-box-flex: 2;
+  flex-grow: 2;
+}
+
+.css-86c4kt {
+  list-style: none;
+  align-self: flex-end;
+  position: relative;
+}
+
+.css-86c4kt:nth-of-type(n+2) {
+  margin-left: -6px;
+}
+
+.css-b869aw-RetailerLogos {
+  position: absolute;
+  top: -6px;
+  right: -12px;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 1px 4px 2px;
+  border: 2px solid rgb(234, 245, 235);
+  background-color: rgb(9, 98, 75);
+  color: rgb(255, 255, 255);
+}
+
+.css-c7gbh3 {
+  max-width: 100%;
+  transform: translate3d(0px, 0px, 0px);
+  background: rgb(255, 255, 255);
+  display: block;
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+}
+
+// segunda caixa 
+.css-qgnzjs-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/deals@2x-52d8edd3eb0812c4e8d1c8607034655d357c7b41f31fc566ec37584ea3cfbf1a.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+//terceira caixa
+.css-1pa5b53-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/wholesale_vertical/wholesale-home-tile@2x-7ed2c8ea0a711b903b9ca515a1cca7dc28c867a9be5269f6af57b4f5484fbeed.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+//espaço quarta caixa
+.css-xi65z5-UseCaseTile:nth-of-type(n+4) {
+  margin-top: 24px;
+}
+
+//quarta caixa
+.css-xi65z5-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/meals@2x-f8344328238e0975909cefa9cbf34e2aae3840a338090b5b5538bae506c70b87.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// espaço quinta caixa
+.css-lkfii4-UseCaseTile:nth-of-type(n+4) {
+  margin-top: 24px;
+}
+
+// quinta caixa
+.css-lkfii4-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/beauty@2x-6a4edb3a4bb9621e9c9664e718a9812db6b505a4c877a6bf0a926b8a17ba354f.png");
+  // tire o comentario das linhas abaixo para arrumar o codigo
+  //background-position: 100% 100%;
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //apague as linhas de baixa para arrumar a imagem
+  background-image: url(https://pbs.twimg.com/media/Dw0YTp7WwAAbZqv.jpg);
+  background-position: 100%;
+  background-size: contain;
+}
+
+// espaço sexta caixa
+.css-606s7d-UseCaseTile:nth-of-type(n+4) {
+  margin-top: 24px;
+}
+
+//sexta caixa
+.css-606s7d-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/electronics@2x-cfdbef4493e81db64015cc7f5bd24b4d5f9ecd1359e2f4eb4dd164e843699614.png");
+   //apague a linha de baixa para arrumar a imagem
+      background-image: url("https://i.pinimg.com/736x/de/4b/87/de4b87df8e9a01d1b6fc85f04b857987.jpg");
+   //apague a linha de cima para arrumar a imagem
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// espaço setima caixa
+.css-3or0tu-UseCaseTile:nth-of-type(n+4) {
+  margin-top: 24px;
+}
+
+//setima caixa
+.css-3or0tu-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/gifts@2x-2426412e200dc73cc9f9f13725dacf8c2b06cf6914fd8d755169c446028b1e6c.png");
+  // tire o comentario das linhas abaixo para arrumar o codigo
+  //background-position: 100% 100%;
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //apague as linhas de baixa para arrumar a imagem
+  background-image: url(https://scontent.fsdu2-1.fna.fbcdn.net/v/t1.6435-9/39149855_2149526385330199_3658213260219383808_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=daAPQzTSozAAX_RIGX9&_nc_ht=scontent.fsdu2-1.fna&oh=00_AfDWyryxySL4C1K8U3ZR9tz9vDH0EZ4NPo7Q3zt5XJ62Fw&oe=64419295);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+// espaço oitava caixa
+.css-1227c61-UseCaseTile:nth-of-type(n+4) {
+  margin-top: 24px;
+}
+
+//oitava caixa
+.css-1227c61-UseCaseTile {
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  min-height: 152px;
+  text-decoration: none;
+  background-color: rgb(234, 245, 235);
+  background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/home/use_case_tiles/compressed/pets@2x-e194aa844c8b20dd959f75cb02fb6aea1a0c29f1494efb6668b01a5d4f39ff09.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

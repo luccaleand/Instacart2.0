@@ -1,0 +1,7 @@
+{
+  "name": "Instacad",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
